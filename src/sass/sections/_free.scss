@@ -1,0 +1,90 @@
+.free {
+  position: relative;
+  margin: 5rem 0;
+  display: flex;
+
+  .container {
+    display: flex;
+    background-color: var(--orange);
+    position: relative;
+    height: 25rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    z-index: 1;
+    .background {
+      z-index: -1;
+      .ellipse {
+        position: absolute;
+        height: 100%;
+        width: 28rem;
+        border-radius: 100%;
+        filter: blur(100px);
+      }
+    }
+    .content {
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding-top: 3rem;
+      padding-left: 5rem;
+      font-size: 1.3rem;
+      .image {
+        img {
+        }
+      }
+      .title {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .description {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-direction: column;
+    margin-top: 3rem;
+
+    color: var(--accent-color1);
+
+    align-items: center;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .p {
+    color: var(--pink);
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 0;
+    .free .img-fluid {
+      padding: 1rem 2rem;
+      height: 40vh;
+      border-radius: 0;
+      .background {
+        .pink {
+          left: -70%;
+        }
+        .green {
+          right: -100%;
+        }
+      }
+
+      .content {
+        padding: 0;
+        font-size: 16px;
+        gap: 1rem;
+        .title {
+          font-size: 22px;
+        }
+      }
+    }
+    .description {
+      font-size: 1.7rem;
+    }
+  }
+}

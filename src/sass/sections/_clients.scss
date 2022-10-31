@@ -1,0 +1,58 @@
+.clients {
+  padding: 1rem 0;
+  .container {
+    background-color: var(--accent-color2);
+    border-radius: 1rem;
+    .clients-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      background-color: var(--accent-color2);
+      border-radius: 1rem;
+
+      text-align: center;
+      .client {
+        img {
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    padding: 1rem 2rem;
+    .container {
+      .clients-container {
+        grid-template-columns: repeat(4, 1fr);
+        text-align: left;
+        gap: 1rem;
+
+        .client {
+          &:nth-of-type(5) {
+            display: none;
+          }
+          img {
+            height: 3rem;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 260px) and (max-width: 516px) {
+    padding: 1rem 2rem;
+    .container {
+      .clients-container {
+        grid-template-columns: repeat(4, 1fr);
+        text-align: left;
+        gap: 0rem;
+
+        .client {
+          &:nth-of-type(5) {
+            display: none;
+          }
+          img {
+            height: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
