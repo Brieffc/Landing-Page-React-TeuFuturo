@@ -5,17 +5,17 @@ import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
   const links = [
     {
-      title: "About",
-      data: ["About", "Terms", "Legal"],
+      title: "Sobre",
+      data: ["Sobre", "Termos", "Legal"],
     },
 
     {
-      title: "Contact",
-      data: ["Press", "Support"],
+      title: "Contato",
+      data: ["Suporte"],
     },
     {
-      title: "Social",
-      data: ["Twiiter", "Instagram"],
+      title: "Rede Social",
+      data: ["Twitter", "Instagram"],
     },
   ];
   const socialLink = [
@@ -54,8 +54,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 </span>
-        <span> August 2022</span>
+        <span>&copy; Todos direitos reservados 2022 </span>
+        <span> Brasil 2022</span>
       </div>
     </footer>
   );
