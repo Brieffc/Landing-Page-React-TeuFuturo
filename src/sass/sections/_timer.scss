@@ -90,6 +90,12 @@
       }
     }
   }
+  .base-timer {
+    border-radius: 10px;
+    box-shadow: rgba(8, 139, 48, 0.25) 0px 4px 55px,
+      rgba(231, 4, 4, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(219, 5, 5, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
