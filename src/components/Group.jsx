@@ -26,15 +26,15 @@ function Group() {
         <Card>
           <Card.Img variant="top" src={virtuos04} />
           <Card.Body>
-            <Card.Title>Design</Card.Title>
-            <Card.Text>Clean</Card.Text>
+            <Card.Title>Suporte</Card.Title>
+            <Card.Text>Cable Manegement</Card.Text>
           </Card.Body>
         </Card>
         <Card>
           <Card.Img variant="top" src={virtuos02} />
           <Card.Body>
-            <Card.Title>Fácil acesso</Card.Title>
-            <Card.Text>Cable Management</Card.Text>
+            <Card.Title>Design</Card.Title>
+            <Card.Text> Tampa removível</Card.Text>
           </Card.Body>
         </Card>
         <Card>
