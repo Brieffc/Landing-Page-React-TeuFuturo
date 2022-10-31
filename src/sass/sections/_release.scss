@@ -52,12 +52,11 @@
       font-weight: bold;
     }
     .reference {
-      border-top: 0.2rem solid black;
-      border-bottom: 0.2rem solid black;
       border-right: 0.2rem solid transparent;
       border-left: 0.2rem solid transparent;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.16) 10px 33px 66px,
+        rgba(0, 0, 0, 0.23) 0px 3px 66px;
       zoom: 0.9;
       margin-top: 1rem;
 

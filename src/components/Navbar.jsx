@@ -78,7 +78,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                         <Card.Title>Alisson Lopes</Card.Title>
                         <Card.Text>Desenvolvedor full stack</Card.Text>
                         <Button
-                          variant="danger"
+                          variant="success"
                           href="https://www.linkedin.com/in/alisson-lopes-dev/"
                           target="_blank"
                         >
@@ -94,7 +94,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                         <Card.Title>Fábio Junior</Card.Title>
                         <Card.Text>Desenvolvedor front-end</Card.Text>
                         <Button
-                          variant="danger"
+                          variant="success"
                           href="https://www.linkedin.com/in/f%C3%A1bio-peres-desenvolvedor/"
                           target="_blank"
                         >
@@ -110,7 +110,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                         <Card.Title>Wesley Tibolla</Card.Title>
                         <Card.Text>Desenvolvedor front-end</Card.Text>
                         <Button
-                          variant="danger"
+                          variant="success"
                           href="https://www.linkedin.com/in/wesley-tibolla-108975243/"
                           target="_blank"
                         >
@@ -126,7 +126,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                         <Card.Title>Jiordana Duarte</Card.Title>
                         <Card.Text>Apresentadora</Card.Text>
                         <Button
-                          variant="danger"
+                          variant="success"
                           href="https://www.linkedin.com/in/alisson-lopes-dev/"
                           target="_blank"
                         >
