@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import home from "../assets/home.png";
 
 const Timer = () => {
@@ -21,7 +21,7 @@ const Timer = () => {
       seconds = `0${seconds}`;
     }
 
-    return `${minutes}:${seconds}`;
+    return `0${minutes}:${seconds}`;
   };
 
   const calculaFracao = () => {
