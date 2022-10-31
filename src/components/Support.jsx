@@ -7,7 +7,7 @@ import Card from "./Card";
 export default function Support() {
   return (
     <div className="like" id="suporte">
-      <div className="container">
+      <div className="container-2">
         <div className="content">
           <div className="image">
             <img src={home1} alt="eth1" />

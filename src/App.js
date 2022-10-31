@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import Free from "./components/Free";
 import Home from "./components/Home";
-import Equipe from "./components/Equipe";
 
 import Support from "./components/Support";
 import Navbar from "./components/Navbar";
@@ -39,7 +37,7 @@ function App() {
         .releases,
         .support,
         .timer,
-        .equipe,
+        
         footer
     `,
         {
@@ -60,21 +58,16 @@ function App() {
       <ScrollToTop />
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
 
-      <Router>
-        <Home />
+      <Home />
 
-        <Group />
-        <Release />
-        <Timer />
-        <Free />
-        <Clients />
-        <Support />
-        <Equipe />
-        <Footer />
-        <Routes>
-          <Route path="/" element={<Equipe />}></Route>
-        </Routes>
-      </Router>
+      <Group />
+      <Release />
+      <Timer />
+      <Free />
+      <Clients />
+      <Support />
+
+      <Footer />
     </div>
   );
 }

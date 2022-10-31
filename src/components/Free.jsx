@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Free() {
   return (
-    <div className="container">
+    <div className="container-3">
       <div className="free">
         <div className="img-fluid"></div>
         <div className="description">

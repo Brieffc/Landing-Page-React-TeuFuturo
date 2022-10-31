@@ -9,6 +9,10 @@ import virtuos03 from "../assets/virtuos03.png";
 function Group() {
   return (
     <div className="container">
+      <div className="description">
+        <h2 className="title">Design sem frescura</h2>
+        <p className="sub-title">Menos RGB, mais performance.</p>
+      </div>
       <div className="card-home">
         <Card>
           <Card.Img variant="top" src={virtuos01} />
