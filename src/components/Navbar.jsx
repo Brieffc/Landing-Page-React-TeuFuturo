@@ -127,7 +127,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                         <Card.Text>Apresentadora</Card.Text>
                         <Button
                           variant="success"
-                          href="https://www.linkedin.com/in/alisson-lopes-dev/"
+                          href="https://www.linkedin.com/in/jiordana-duarte-programacao"
                           target="_blank"
                         >
                           Linkedin
