@@ -135,6 +135,22 @@ export default function Navbar({ changeTheme, currentTheme }) {
                       </Card.Body>
                     </Card>
                   </Col>
+                  <Col>
+                    <Card>
+                      <Card.Img variant="top" src={girl} />
+                      <Card.Body>
+                        <Card.Title>Nicole Duarte</Card.Title>
+                        <Card.Text>Apresentadora</Card.Text>
+                        <Button
+                          variant="success"
+                          href="https://www.linkedin.com/in/nicole-duarte-cruz-8a8770237"
+                          target="_blank"
+                        >
+                          Linkedin
+                        </Button>
+                      </Card.Body>
+                    </Card>
+                  </Col>
                 </Row>
               </Modal.Body>
             </Modal>
