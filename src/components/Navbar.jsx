@@ -76,7 +76,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
                       <Card.Img variant="top" src={man} />
                       <Card.Body>
                         <Card.Title>Alisson Lopes</Card.Title>
-                        <Card.Text>Desenvolvedor full stack</Card.Text>
+                        <Card.Text>Desenvolvedor full stack líder</Card.Text>
                         <Button
                           variant="success"
                           href="https://www.linkedin.com/in/alisson-lopes-dev/"
