@@ -18,12 +18,7 @@ export default function Footer() {
       data: ["Twitter", "Instagram"],
     },
   ];
-  const socialLink = [
-    <BsFacebook />,
-    <BsTwitter />,
-    <BsInstagram />,
-    <FaTiktok />,
-  ];
+  const socialLink = [<BsFacebook />, <BsTwitter />, <BsInstagram />];
   return (
     <footer>
       <div className="upper">
