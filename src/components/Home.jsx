@@ -7,7 +7,8 @@ export default function Home() {
         <div className="content">
           <p className="sub-title">A Nova era de PC Razor chegou! </p>
           <h1 className="title">
-            Adquira agora o seu <span className="sub-title">RAZOR VIRTUOS</span>
+            Adquira agora o seu <br></br>
+            <span className="sub-title">RAZOR VIRTUOS </span>
           </h1>
 
           <button>

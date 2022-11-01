@@ -36,7 +36,8 @@ const Timer = () => {
           <p className="sub-title">Não perca essa oportunidade</p>
           <h1 className="title">
             Adquira agora o seu
-            <span className="sub-title"> RAZOR VIRTUOS!</span>
+            <span className="sub-title"> RAZOR VIRTUOS</span> por{" "}
+            <span className="sub-title">R$ 9.895,06</span>
           </h1>
           <p className="description">Faça sua encomenda!</p>
           <button>
