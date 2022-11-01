@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import home from "../assets/home.png";
 
 const Timer = () => {
-  const TEMPO_TOTAL = 300;
+  const TEMPO_TOTAL = 600;
 
   let [tempoRestante, setTempoRestante] = useState(TEMPO_TOTAL);
   const startTimer = () => {
