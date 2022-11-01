@@ -5,14 +5,19 @@ import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
   const links = [
     {
+      title: "Contato",
+      data: [
+        "(54) 3046-6350",
+        "atendimento@razorcomputadores.com.br",
+        "Rua Dr. Plínio Moura, 153C",
+        "Passo Fundo,RS",
+      ],
+    },
+    {
       title: "Sobre",
       data: ["Sobre", "Termos", "Legal"],
     },
 
-    {
-      title: "Contato",
-      data: ["Suporte"],
-    },
     {
       title: "Rede Social",
       data: ["Twitter", "Instagram"],
