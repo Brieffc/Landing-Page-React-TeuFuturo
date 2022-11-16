@@ -52,14 +52,6 @@ Squad Bugcode #Teu Futuro
 
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-#
 
 #
 
