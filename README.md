@@ -38,8 +38,6 @@ Tecnologias usadas.
 
 ## Funcionalidades
 
-#
-
 - Visualização
 - Compra
   https://razor-bugcode.netlify.app/#
